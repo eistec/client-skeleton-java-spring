@@ -28,6 +28,7 @@
 	    <module>client-skeleton-provider</module>
 	    <module>client-skeleton-subscriber</module>
 	    <module>client-skeleton-publisher</module>
+	    <module>client-skeleton-stream</module>
   	</modules>
 		
 	<dependencies>
@@ -35,7 +36,11 @@
 			<groupId>eu.arrowhead</groupId>
 			<artifactId>client-library</artifactId>
 			<version>4.1.3.13</version>
-		</dependency>		
+		</dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+           <artifactId>spring-websocket</artifactId>
+        </dependency>
 	</dependencies>
 	
 	<build>
